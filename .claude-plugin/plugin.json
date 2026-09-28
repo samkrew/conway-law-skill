@@ -1,0 +1,14 @@
+{
+  "name": "conway-law-skill",
+  "version": "1.0.0",
+  "description": "Universal AI agent skill defining when to work in a single context vs when to delegate to subagents based on Conway's Law",
+  "author": {
+    "name": "Sam Krew",
+    "url": "https://github.com/samkrew"
+  },
+  "repository": "https://github.com/samkrew/conway-law-skill",
+  "license": "Unlicense",
+  "skills": [
+    "./skills/"
+  ]
+}
