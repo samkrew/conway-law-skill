@@ -1,7 +1,7 @@
 {
   "name": "conway-law-skill",
-  "version": "1.0.0",
-  "description": "Universal AI agent skill defining when to work in a single context vs when to delegate to subagents based on Conway's Law",
+  "version": "1.1.0",
+  "description": "Universal AI agent skill defining when to work in a single context vs when to delegate to subagents based on Conway's Law. Ships a Claude Code hook that routes Workflow and Agent spawns through the gate.",
   "author": {
     "name": "Sam Krew",
     "url": "https://github.com/samkrew"

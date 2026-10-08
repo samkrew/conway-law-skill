@@ -1,0 +1,22 @@
+{
+  "name": "conway-law-skill",
+  "owner": {
+    "name": "Sam Krew",
+    "url": "https://github.com/samkrew"
+  },
+  "description": "The conway-law skill and its conway-gate hook, installable as a Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "conway-law-skill",
+      "source": "./",
+      "description": "Conway's Law topology gate for multi-agent work, plus a hook that routes Workflow and Agent spawns through it.",
+      "license": "Unlicense",
+      "keywords": [
+        "subagents",
+        "orchestration",
+        "workflow",
+        "conway"
+      ]
+    }
+  ]
+}

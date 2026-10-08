@@ -1,0 +1,28 @@
+{
+  "description": "conway-gate: route Workflow and Agent spawns through the conway-law topology gate",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}/hooks/conway-gate.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Workflow|Agent|Skill",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}/hooks/conway-gate.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
